@@ -3,7 +3,7 @@ module github.com/deltabyte/littleurl-api
 go 1.17
 
 require (
-	github.com/auth0/go-auth0 v0.9.2
+	github.com/auth0/go-auth0 v0.13.1
 	github.com/aws/aws-lambda-go v1.33.0
 	github.com/aws/aws-sdk-go v1.44.61
 	github.com/aws/aws-sdk-go-v2/config v1.15.14
@@ -13,7 +13,7 @@ require (
 	github.com/google/uuid v1.3.0
 	github.com/jinzhu/configor v1.2.1
 	github.com/lumigo-io/lumigo-go-tracer v0.4.1
-	github.com/stretchr/testify v1.8.0
+	github.com/stretchr/testify v1.8.1
 	go.uber.org/zap v1.21.0
 )
 
@@ -27,7 +27,7 @@ require (
 require (
 	github.com/BurntSushi/toml v1.2.0 // indirect
 	github.com/PuerkitoBio/rehttp v1.1.0 // indirect
-	github.com/aws/aws-sdk-go-v2 v1.16.7 // indirect
+	github.com/aws/aws-sdk-go-v2 v1.16.7
 	github.com/aws/aws-sdk-go-v2/credentials v1.12.9 // indirect
 	github.com/aws/aws-sdk-go-v2/feature/ec2/imds v1.12.8 // indirect
 	github.com/aws/aws-sdk-go-v2/internal/configsources v1.1.14 // indirect
