@@ -3,7 +3,7 @@ module github.com/deltabyte/littleurl-api
 go 1.17
 
 require (
-	github.com/auth0/go-auth0 v0.9.2
+	github.com/auth0/go-auth0 v0.15.0
 	github.com/aws/aws-lambda-go v1.33.0
 	github.com/aws/aws-sdk-go v1.44.61
 	github.com/aws/aws-sdk-go-v2/config v1.15.14
@@ -13,7 +13,7 @@ require (
 	github.com/google/uuid v1.3.0
 	github.com/jinzhu/configor v1.2.1
 	github.com/lumigo-io/lumigo-go-tracer v0.4.1
-	github.com/stretchr/testify v1.8.0
+	github.com/stretchr/testify v1.8.1
 	go.uber.org/zap v1.21.0
 )
 
@@ -27,7 +27,7 @@ require (
 require (
 	github.com/BurntSushi/toml v1.2.0 // indirect
 	github.com/PuerkitoBio/rehttp v1.1.0 // indirect
-	github.com/aws/aws-sdk-go-v2 v1.16.7 // indirect
+	github.com/aws/aws-sdk-go-v2 v1.16.7
 	github.com/aws/aws-sdk-go-v2/credentials v1.12.9 // indirect
 	github.com/aws/aws-sdk-go-v2/feature/ec2/imds v1.12.8 // indirect
 	github.com/aws/aws-sdk-go-v2/internal/configsources v1.1.14 // indirect
@@ -69,10 +69,10 @@ require (
 	go.opentelemetry.io/otel/trace v1.3.0 // indirect
 	go.uber.org/atomic v1.9.0 // indirect
 	go.uber.org/multierr v1.8.0 // indirect
-	golang.org/x/net v0.0.0-20220708220712-1185a9018129 // indirect
-	golang.org/x/oauth2 v0.0.0-20220718184931-c8730f7fcb92 // indirect
-	golang.org/x/sys v0.0.0-20220610221304-9f5ed59c137d // indirect
-	golang.org/x/text v0.3.7 // indirect
+	golang.org/x/net v0.5.0 // indirect
+	golang.org/x/oauth2 v0.4.0 // indirect
+	golang.org/x/sys v0.4.0 // indirect
+	golang.org/x/text v0.6.0 // indirect
 	google.golang.org/appengine v1.6.7 // indirect
 	google.golang.org/protobuf v1.28.0 // indirect
 	gopkg.in/ini.v1 v1.63.2 // indirect
