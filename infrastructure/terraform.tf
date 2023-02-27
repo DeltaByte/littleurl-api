@@ -20,7 +20,7 @@ terraform {
     }
     cloudflare = {
       source  = "cloudflare/cloudflare"
-      version = "~> 3.19"
+      version = "~> 4.0"
     }
     auth0 = {
       source  = "auth0/auth0"
